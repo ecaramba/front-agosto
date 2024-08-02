@@ -1,0 +1,13 @@
+.imagem {
+    /* comentario */
+    width: 250px;
+    height: 50px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.imagem:hover {
+    background-color: aquamarine;
+    width: 300px;
+    height: 80px;
+}
