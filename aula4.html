@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
 
+    <style>
+        div {
+            border: 1px solid red;
+        }
+    </style>
+
 </head>
+
 <body>
     <h1>Aula de bootstrap</h1>
-    
+
+    <div class="alert alert-danger">
+        Usuário invalido
+    </div>
+
+    <button class="btn btn-primary">Salvar</button>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand">Navbar</a>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-4 offset-2">lateral</div>
+            <div class="col-4">principal</div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
