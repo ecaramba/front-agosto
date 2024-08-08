@@ -32,3 +32,16 @@ function ex24()
         }
     }
 }
+
+// função -> subpro -> subrotina
+// E -> P -> S
+
+function soma(n1, n2)
+{
+    var resultado = n1 + n2;
+    return resultado;
+}
+
+// executa a função
+soma(3, 5);
+
